@@ -1,0 +1,39 @@
+@import url("reset.css");
+
+body{
+    text-align: center;
+}
+
+[class*="__container"] {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-inline: 15px;
+}
+
+.list__item{
+    display: inline-block;
+    margin: 30px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(226, 156, 43);
+}
+
+.list__content{
+    width: 150px;
+    height: 150px;
+    padding: 45px 10px;
+    background-color: rgb(179, 247, 20);
+}
+
+.list__item:nth-child(1):hover .list__content{
+    transform: translate(-15px, 15px);
+}
+
+.list__item:nth-child(2):hover .list__content{
+    transform: translate(10%, 10%);
+}
+
+.list__item:nth-child(3):hover .list__content{
+    transform: scale(0.7);
+    
+}

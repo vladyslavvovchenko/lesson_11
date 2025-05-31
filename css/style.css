@@ -13,11 +13,14 @@ body{
 	padding-inline: 15px;
 }
 
+.header{
+    background: linear-gradient(0deg,rgba(20, 9, 3, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
 .header__title{
     font-size: 70px;
     font-weight: 700;
     color: #19bd58;
-    background: linear-gradient(0deg,rgba(20, 9, 3, 1) 0%, rgba(253, 187, 45, 1) 100%);
     padding: 30px 0;
 }
 

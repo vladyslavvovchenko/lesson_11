@@ -178,7 +178,7 @@ body{
     margin-right: auto;
     padding: 270px 0 155px;
     background-color: rgb(245, 217, 132);
-    background-image: url(img/city.jpg);
+    background-image: url(../img/city.jpg);
 }
 
 .car__body01, .car__body02 {
